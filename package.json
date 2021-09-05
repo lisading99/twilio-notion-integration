@@ -1,0 +1,20 @@
+{
+  "name": "notion-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "@notionhq/client": "^0.2.3",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "node-cron": "^3.0.0",
+    "node-schedule": "^2.0.0",
+    "twilio": "^3.67.0"
+  },
+  "scripts": {
+    "devserver": "nodemon index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
